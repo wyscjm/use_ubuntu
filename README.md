@@ -23,5 +23,6 @@ sudo apt-get install open-vm-tools-dkms
 
 **It's not ok as below:**
 * sudo vmhgfs-fuse .host:/ /mnt/hgfs/share -o subtype=vmhgfs-fuse,allow_other
+
 So I think mount the file to /mnt/hgfs is not OK.
     
