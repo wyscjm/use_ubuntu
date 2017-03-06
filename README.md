@@ -16,10 +16,10 @@ sudo apt-get install open-vm-tools-dkms
 mount.vmhgfs .host:/share /mnt/hgfs
 mount -t vmhgfs .host:/share /mnt/hgfs
 
-*but when I use ubuntu16.04,I test it as below:
+but when I use ubuntu16.04,I test it as below:
 sudo mkdir -m 777 /mnt/hgfs/share
 sudo vmhgfs-fuse .host:/SHARE /mnt/hgfs/share -o subtype=vmhgfs-fuse,allow_other
-*It's not ok as below:
+It's not ok as below:
 sudo vmhgfs-fuse .host:/ /mnt/hgfs/share -o subtype=vmhgfs-fuse,allow_other
 So I think mount the file to /mnt/hgfs is not OK.
     
