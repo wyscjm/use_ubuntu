@@ -1,6 +1,7 @@
 # use_ubuntu
 log something when use ubuntu
 
+# update vim
 
 # install vm-tools after use vmware install ubuntu
 1. mount vmware-tools
