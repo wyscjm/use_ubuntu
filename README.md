@@ -25,4 +25,6 @@ sudo apt-get install open-vm-tools-dkms
 * sudo vmhgfs-fuse .host:/ /mnt/hgfs/share -o subtype=vmhgfs-fuse,allow_other
 
 So I think mount the file to /mnt/hgfs is not OK.
+
+You could use **umount /mnt/hgfs** umount the mountpoint.
     
